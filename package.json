@@ -1,0 +1,25 @@
+{
+  "name": "playwritedemo",
+  "version": "1.0.0",
+  "description": "This is a sample playwrite project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishmitra13/playwriteDemo.git"
+  },
+  "keywords": [
+    "PlayWrite"
+  ],
+  "author": "Manish Mitra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manishmitra13/playwriteDemo/issues"
+  },
+  "homepage": "https://github.com/manishmitra13/playwriteDemo#readme",
+  "devDependencies": {
+    "playwright": "^1.4.1"
+  }
+}
