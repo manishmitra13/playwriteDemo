@@ -4,7 +4,8 @@
   "description": "This is a sample playwrite project",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "test:e2e": "jest -c jest.e2e.config.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,16 @@
   },
   "homepage": "https://github.com/manishmitra13/playwriteDemo#readme",
   "devDependencies": {
-    "playwright": "^1.4.1"
+    "@types/jest": "^26.0.14",
+    "expect-playwright": "^0.2.5",
+    "jest": "^26.4.2",
+    "jest-playwright-preset": "^1.3.1",
+    "playwright": "^1.4.1",
+    "playwright-cli": "^0.5.2",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "expect-puppeteer": "^4.4.0"
   }
 }
